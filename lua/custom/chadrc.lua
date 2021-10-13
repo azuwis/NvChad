@@ -11,4 +11,12 @@ M.mappings.plugins = {
   },
 }
 
+M.plugins = {
+  options = {
+    lspconfig = {
+      setup_lspconf = "custom.lspconfig",
+    },
+  },
+}
+
 return M

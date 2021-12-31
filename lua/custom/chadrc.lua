@@ -6,6 +6,9 @@ M.ui = {
 
 M.mappings = {}
 M.mappings.plugins = {
+  comment = {
+    toggle = "gc",
+  },
   telescope = {
     find_files = "<leader><leader>",
   },

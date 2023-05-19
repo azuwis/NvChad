@@ -1,4 +1,10 @@
 return {
+  dev = {
+    path = vim.fn.stdpath("config") .. "/lazyPlugins/pack/lazyPlugins/start",
+    patterns = { "." },
+    fallback = true,
+  },
+
   defaults = { lazy = true },
   install = { colorscheme = { "nvchad" } },
 
@@ -12,6 +18,8 @@ return {
   },
 
   performance = {
+    cache = { enabled = false },
+    reset_packpath = false,
     rtp = {
       disabled_plugins = {
         "2html_plugin",
